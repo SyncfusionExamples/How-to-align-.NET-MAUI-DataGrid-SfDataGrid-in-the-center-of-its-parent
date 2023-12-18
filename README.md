@@ -1,11 +1,11 @@
-# How-to-align-.NET-MAUI-DataGrid-SfDataGrid-in-the-center-of-its-parent
+# How to align .NET MAUI DataGrid SfDataGrid in the center of its parent
 The [SfDataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid) can be centered within its parent by providing appropriate `HeightRequest` and `WidthRequest` values, along with setting the layout options to center.
 
 ##### xaml:
  
  ```XML
 <syncfusion:SfDataGrid  ItemsSource="{Binding Employees}"
-                        AutoGenerateColumnsMode="None"                  
+                        AutoGenerateColumnsMode="None"
                         HeightRequest="300"
                         WidthRequest="200"
                         VerticalOptions="Center"
